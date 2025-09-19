@@ -56,7 +56,15 @@ if st.sidebar.button("🎲 Generate password", type="primary", use_container_wid
         st.error(f"❌ {e}")
 
 st.markdown("---")
+st.markdown("---")
 st.markdown(
-
+    """
+    <style>
+    .footer { font-size: 0.8rem; color: #6c757d; text-align: center; }
+    </style>
+    <div class="footer">
+        Built with Python 🐍, Streamlit, and the <code>secrets</code> module for security.
+    </div>
+    """,
     unsafe_allow_html=True
 )
