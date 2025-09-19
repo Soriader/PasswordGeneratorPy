@@ -57,6 +57,7 @@ if st.sidebar.button("🎲 Generate password", type="primary", use_container_wid
 
 st.markdown("---")
 st.markdown("---")
+
 st.markdown(
     """
     <style>
