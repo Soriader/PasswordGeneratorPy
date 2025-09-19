@@ -3,10 +3,11 @@ import string
 import random
 
 
-def generate_password(length=12, use_uppercase=True, use_digits=True, use_special=True):
+def generate_password(length=12, use_lowercase=True, use_uppercase=True, use_digits=True, use_special=True): # Dodano use_lowercase
+    character_set = ''
 
-    character_set = string.ascii_lowercase
-
+    if use_lowercase:
+        character_set += string.ascii_lowercase
     if use_uppercase:
         character_set += string.ascii_uppercase
     if use_digits:
