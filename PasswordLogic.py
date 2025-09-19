@@ -30,5 +30,7 @@ def check_strength(password):
         strength = "Weak"
     if length >= 12:
         strength = "Medium"
+    if length >= 13:
+        strength = "Strong"
 
     return strength
