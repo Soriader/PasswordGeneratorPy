@@ -1,9 +1,8 @@
 import secrets
 import string
-import random
 
 
-def generate_password(length=12, use_lowercase=True, use_uppercase=True, use_digits=True, use_special=True): # Dodano use_lowercase
+def generate_password(length=12, use_lowercase=True, use_uppercase=True, use_digits=True, use_special=True):
     character_set = ''
 
     if use_lowercase:
